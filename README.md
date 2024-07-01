@@ -39,7 +39,8 @@ for testing my design i tested 5 math expressions
  $$2 * 3 + (10 + 4 + 3) * -20 + ( ( 6 + 5 ) * ( 8 + 1 ) * ( 9 + 1 ) ) +2 $$  
  
  $$1+(-2+0)$$  
-and the results are as follows:
+and the results are as follows:  
+
  ![result](https://github.com/SadegH-BEET/Stack-Based-ALU-Verilog/blob/main/Picture1.jpg)
 
 # Related Links  
