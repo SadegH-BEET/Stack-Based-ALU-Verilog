@@ -1,13 +1,14 @@
 # Stack-Based-ALU-Verilog
-![SBALU](https://github.com/SadegH-BEET/Stack-Based-ALU-Verilog/blob/main/STALU.png)
+![SBALU](https://github.com/SadegH-BEET/Stack-Based-ALU-Verilog/blob/main/STALU.png)  
+
 In this project i desigend a **STACK BASED ALU** and a **calculator** for infix math expressions  
-this ALU support push,pop,add,multiply instruction with 32 bit inputs and outputs  
+this ALU support push,pop,add,multiply instruction with **n** bit inputs and outputs  
 you can see the ports of this ALU in table below:  
 | port | function | 
 | -------- | -------- | 
 | clk   | clk!   | 
 | rst  | input signal to reset ALU   |
-| input_data | data for push to stack |
+| input_data | data for push to stack with length n |
 | opcode | showing operation |
 | output_data | data of different operations |  
 # Tools  
@@ -15,11 +16,52 @@ in this project i used
 * Modelsim for simulating
 * VsCode writing verilog code
 # Implementation Details  
+My design consists of two modules:  
+* STACK_BASED_ALU
+* EXP_CALC
+
+in first module i designed a STACK_BASE_ALU that supports the following 6 commands:
+
+| opcode | instruction | 
+| -------- | -------- | 
+| 100   | add instruction   | 
+| 101   | mul instruction   |
+| 110   | PUSH instruction |
+| 110   | POP instruction |
+| 0xx   | NO operation |    
+
+note: mul and add instruction don't change the values in stack, they get two first element in stack as operand and after performing the operation, it drops the result in the output_data    
+``` verilog
+module STACK_BASED_ALU #(parameter n = 32)
+      (input signed [n-1:0] input_data,
+       input clk,
+       input rst,
+       input [2:0] opcode,
+       output reg signed [n-1:0] output_data,
+       output reg overflow,
+       output reg [4:0] sp);
+
+```
+
+in second module i used this [algorithm](https://www.geeksforgeeks.org/evaluation-of-postfix-expression/) that use stack to convert infix order math exp. to posfix order math exp. , after this step we can calculate the value of posfix math exp. with this [algorithm](https://www.geeksforgeeks.org/evaluation-of-postfix-expression/)  
+When we convert an expression to posfix, the advantage is that we no longer need to pay attention to the priority of algebraic operations, and in fact, this order is included in the conversion to posfix.  
+so in this module i get two instance from first module with arbitary clk signal for each one to control them, one is used for converting posfix to infix and other for calculating the posfix math exp.  
+``` verilog
+module EXP_CALC (
+    input wire [399:0] expression,
+    output reg [49:0] output_value,
+    input wire rst,
+    input wire clk
+);
+```
+
+
+
 # How to run  
 To use this program, you can use different software such as QEMU or ModelSim or iverilog in mac
-for running the Testbench with iverilog in mac you can use this command:
+for running the Testbench with iverilog in mac you can use this command:   
 ```
-cd verilog
+cd code
 iverilog -o test tb_EXP_CALC.v EXP_CALC.v STACK_BASED_ALU.v
 vvp test
 ```
