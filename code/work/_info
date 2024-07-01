@@ -1,0 +1,280 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1719796996
+VPKRA7:n8hidT^HbmC4nH50
+04 11 4 work tb_EXP_CALC fast 0
+=1-a036bc6a7430-66820504-181-838
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1719789007
+VYg@nbj4Z]hGXW7>3ihkV>2
+04 7 4 work tb_ALU8 fast 0
+=1-a036bc6a7430-6681e5cf-72-d60
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1719789238
+VchEKUHk^XPcR_e2caMHIH0
+04 7 4 work tb_ALU4 fast 0
+=1-a036bc6a7430-6681e6b6-166-264c
+R1
+R2
+n@_opt2
+R3
+R0
+vEXP_CALC
+Z4 !s110 1719796977
+!i10b 1
+!s100 I[WI_cff:dTfkKXzNH`cl1
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQG;OJ0;kV8k`[ONk1]i;<0
+Z6 dC:/Users/ARTA PC/OneDrive/Desktop/401109477
+w1719796723
+Z7 8C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v
+Z8 FC:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v
+!i122 72
+L0 1 203
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z11 !s108 1719796977.000000
+Z12 !s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@e@x@p_@c@a@l@c
+vSTACK_BASED_ALU
+R4
+!i10b 1
+!s100 cEYOYV>c];XZO?4KKk6Wh2
+R5
+I[n?hl6G0goRaaJB90=V5N0
+R6
+w1719786934
+8C:\Users\ARTA PC\OneDrive\Desktop\401109477\STACK_BASED_ALU.v
+FC:\Users\ARTA PC\OneDrive\Desktop\401109477\STACK_BASED_ALU.v
+!i122 67
+L0 1 91
+R9
+R10
+r1
+!s85 0
+31
+!s108 1719796976.000000
+!s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\STACK_BASED_ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\STACK_BASED_ALU.v|
+!i113 0
+R14
+R2
+n@s@t@a@c@k_@b@a@s@e@d_@a@l@u
+vSTACK_BASED_CALCULATOR
+!s110 1719795685
+!i10b 1
+!s100 9eC4FQ1HZcc2<5ZIBcOE=2
+R5
+IlalXVML?D07SLC=0_Hz6W0
+R6
+w1719795680
+R7
+R8
+!i122 53
+L0 1 168
+R9
+R10
+r1
+!s85 0
+31
+!s108 1719795685.000000
+R12
+R13
+!i113 0
+R14
+R2
+n@s@t@a@c@k_@b@a@s@e@d_@c@a@l@c@u@l@a@t@o@r
+vTB_ALU
+!s110 1719783891
+!i10b 1
+!s100 Fe?jE`=C<KK25CTm=:GZ70
+R5
+IL>oRIX92fl>Zif[SaZ7CN2
+R6
+w1719783871
+Z15 8C:\Users\ARTA PC\OneDrive\Desktop\401109477\TB_ALU.v
+Z16 FC:\Users\ARTA PC\OneDrive\Desktop\401109477\TB_ALU.v
+!i122 3
+L0 1 47
+R9
+R10
+r1
+!s85 0
+31
+!s108 1719783891.000000
+Z17 !s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\TB_ALU.v|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\TB_ALU.v|
+!i113 0
+R14
+R2
+n@t@b_@a@l@u
+vtb_ALU
+R4
+!i10b 1
+!s100 IHYGKEe_UQn2eMUkC=8zc3
+R5
+IZ_dnRNRBmMZHYJIS_G`2K0
+R6
+w1719787890
+R15
+R16
+!i122 68
+Z19 L0 1 45
+R9
+R10
+r1
+!s85 0
+31
+R11
+R17
+R18
+!i113 0
+R14
+R2
+ntb_@a@l@u
+vtb_ALU16
+R4
+!i10b 1
+!s100 I5hOnH8hT]VgP3G1JDP@:1
+R5
+IHRz9Z<elA1o1CN^go70SQ2
+R6
+w1719788568
+8C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU16.v
+FC:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU16.v
+!i122 69
+L0 2 45
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU16.v|
+!i113 0
+R14
+R2
+ntb_@a@l@u16
+vtb_ALU4
+R4
+!i10b 1
+!s100 HG5NkMRPaM3Kij`^I3Ukk1
+R5
+IEicO5ede0707S[KAjTYkQ1
+R6
+w1719789225
+8C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU4.v
+FC:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU4.v
+!i122 71
+R19
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU4.v|
+!i113 0
+R14
+R2
+ntb_@a@l@u4
+vtb_ALU8
+R4
+!i10b 1
+!s100 2o8Yo8AMEBbX2Daj7O@5c2
+R5
+Ig^>Sgn:AIcFg1:O<8o5AS3
+R6
+w1719788994
+8C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU8.v
+FC:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU8.v
+!i122 70
+R19
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU8.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU8.v|
+!i113 0
+R14
+R2
+ntb_@a@l@u8
+vtb_EXP_CALC
+R4
+!i10b 1
+!s100 <>:<B?E91@`RQYDXzIVBJ3
+R5
+IWMLnSgd`kOK<fCOFJ9_W;2
+R6
+w1719796967
+8C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_EXP_CALC.v
+FC:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_EXP_CALC.v
+!i122 73
+L0 1 54
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_EXP_CALC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_EXP_CALC.v|
+!i113 0
+R14
+R2
+ntb_@e@x@p_@c@a@l@c
+vtb_STACK_BASED_ALU
+!s110 1719786059
+!i10b 1
+!s100 2i5Gz[S9Nzc[b@_KTK;YT0
+R5
+I9M0]B5i2^M<Am4QBi7UoS1
+R6
+w1719786055
+R15
+R16
+!i122 17
+L0 1 53
+R9
+R10
+r1
+!s85 0
+31
+!s108 1719786059.000000
+R17
+R18
+!i113 0
+R14
+R2
+ntb_@s@t@a@c@k_@b@a@s@e@d_@a@l@u
