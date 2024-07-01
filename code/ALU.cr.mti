@@ -1,0 +1,49 @@
+{C:/Users/ARTA PC/OneDrive/Desktop/401109477/STACK_BASED_ALU.v} {2 {vlog -work work -vopt -stats=none {C:\Users\ARTA PC\OneDrive\Desktop\401109477\STACK_BASED_ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module STACK_BASED_ALU
+** Warning: C:\Users\ARTA PC\OneDrive\Desktop\401109477\STACK_BASED_ALU.v(79): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	STACK_BASED_ALU
+
+} {} {}} {C:/Users/ARTA PC/OneDrive/Desktop/401109477/tb_ALU16.v} {1 {vlog -work work -vopt -stats=none {C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU16.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_ALU16
+
+Top level modules:
+	tb_ALU16
+
+} {} {}} {C:/Users/ARTA PC/OneDrive/Desktop/401109477/EXP_CALC.v} {2 {vlog -work work -vopt -stats=none {C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EXP_CALC
+** Warning: C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v(52): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v(58): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v(159): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v(184): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:\Users\ARTA PC\OneDrive\Desktop\401109477\EXP_CALC.v(196): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	EXP_CALC
+
+} {} {}} {C:/Users/ARTA PC/OneDrive/Desktop/401109477/tb_ALU4.v} {1 {vlog -work work -vopt -stats=none {C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU4.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_ALU4
+
+Top level modules:
+	tb_ALU4
+
+} {} {}} {C:/Users/ARTA PC/OneDrive/Desktop/401109477/tb_ALU8.v} {1 {vlog -work work -vopt -stats=none {C:\Users\ARTA PC\OneDrive\Desktop\401109477\tb_ALU8.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_ALU8
+
+Top level modules:
+	tb_ALU8
+
+} {} {}} {C:/Users/ARTA PC/OneDrive/Desktop/401109477/tb_ALU.v} {1 {vlog -work work -vopt -stats=none {C:\Users\ARTA PC\OneDrive\Desktop\401109477\TB_ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_ALU
+
+Top level modules:
+	tb_ALU
+
+} {} {}}
